@@ -1,4 +1,4 @@
-package pro.Trartaria.FiltroSpring.Entities;
+package Pro.FiltroSpring.coworkingMaster.Entities;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;

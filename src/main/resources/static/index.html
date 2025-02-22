@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Gestión de Funcionarios</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Gestión de Funcionarios</h1>
+
+        <form th:action="@{/guardar}" th:object="${funcionario}" method="post">
+            <input type="hidden" th:field="*{id}">
+            <label for="nombre">Nombre:</label>
+            <input type="text" th:field="*{nombre}" id="nombre" required>
+            <label for="cargo">Cargo:</label>
+            <input type="text" th:field="*{cargo}" id="cargo" required>
+            <label for="departamento">Departamento:</label>
+            <input type="text" th:field="*{departamento}" id="departamento" required>
+            <button type="submit">Guardar</button>
+        </form>
+
+        <h2>Lista de Funcionarios</h2>
+        <table>
+            <thead>
+                <tr>    
+                    <th>ID</th>
+                    <th>Nombre</th>
+                    <th>Cargo</th>
+                    <th>Departamento</th>
+                    <th>Acciones</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr th:each="funcionario : ${funcionarios}">
+                    <td th:text="${funcionario.id}"></td>
+                    <td th:text="${funcionario.nombre}"></td>
+                    <td th:text="${funcionario.cargo}"></td>
+                    <td th:text="${funcionario.departamento}"></td>
+                    <td>
+                        <a th:href="@{/editar/{id}(id=${funcionario.id})}">Editar</a>
+                        <a href="/" th:onclick="'eliminarFuncionario(' + ${funcionario.id} + ')'">Eliminar</a>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <script src="./js/app.js"></script>
+</body>
+</html>

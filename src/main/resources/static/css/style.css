@@ -1,0 +1,118 @@
+body {
+    background-color: #121212; 
+    color: #ffffff; 
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1, h2 {
+    color: #00ffff; 
+}
+
+
+form {
+    background-color: #1e1e1e;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #00ffff; 
+}
+
+input[type="text"], input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    background-color: #333; 
+    border: 1px solid #00ffff; 
+    color: #ffffff; 
+    border-radius: 4px;
+}
+
+input[type="text"]:focus, input[type="number"]:focus {
+    border-color: #00ffff; 
+    outline: none;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #00ffff; 
+    border: none;
+    color: #121212; 
+    cursor: pointer;
+    border-radius: 4px;
+    margin-right: 10px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #00cccc; 
+}
+
+
+a {
+    color: #00ffff;
+    text-decoration: none;
+    margin-right: 10px;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #00cccc; 
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #444;
+    text-align: left;
+}
+
+th {
+    background-color: #333; 
+    color: #00ffff; 
+}
+
+tr:nth-child(even) {
+    background-color: #1e1e1e;
+}
+
+tr:hover {
+    background-color: #2e2e2e; 
+}
+
+
+button[type="button"] {
+    background-color: #00ffff; 
+    color: #121212; 
+}
+
+button[type="button"]:hover {
+    background-color: #00cccc; 
+}
+
+
+a[onclick] {
+    color: #ff5555;
+}
+
+a[onclick]:hover {
+    color: #cc0000;
+}

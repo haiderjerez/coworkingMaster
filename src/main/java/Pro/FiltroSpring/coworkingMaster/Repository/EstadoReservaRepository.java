@@ -1,12 +1,12 @@
-package pro.Trartaria.FiltroSpring.Repository;
+package Pro.FiltroSpring.coworkingMaster.Repository;
 
 import java.util.List;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import pro.Trartaria.FiltroSpring.Entities.Espacios;
-import pro.Trartaria.FiltroSpring.Entities.EstadoReserva;
+import Pro.FiltroSpring.coworkingMaster.Entities.Espacios;
+import Pro.FiltroSpring.coworkingMaster.Entities.EstadoReserva;
 
 @Repository
 public interface EstadoReservaRepository extends JpaRepository<EspaciosRepository, Long>{

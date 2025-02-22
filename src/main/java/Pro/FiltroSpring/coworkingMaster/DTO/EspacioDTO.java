@@ -1,4 +1,4 @@
-package pro.Trartaria.FiltroSpring.DTO;
+package Pro.FiltroSpring.coworkingMaster.DTO;
 
 public class EspacioDTO {
     private Long id;

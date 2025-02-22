@@ -1,4 +1,4 @@
-package pro.Trartaria.FiltroSpring.Controller;
+package Pro.FiltroSpring.coworkingMaster.Controller;
 
 import java.util.List;
 
@@ -8,8 +8,9 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import pro.Trartaria.FiltroSpring.Entities.Espacios;
-import pro.Trartaria.FiltroSpring.Service.DisponibilidadService;
+import Pro.FiltroSpring.coworkingMaster.Entities.Espacios;
+import Pro.FiltroSpring.coworkingMaster.Service.DisponibilidadService;
+
 
 @RestController
 @RequestMapping("/disponibilidad")

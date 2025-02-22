@@ -1,4 +1,4 @@
-package pro.Trartaria.FiltroSpring.Service;
+package Pro.FiltroSpring.coworkingMaster.Service;
 
 import java.util.List;
 import java.util.Optional;
@@ -6,9 +6,10 @@ import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import pro.Trartaria.FiltroSpring.Entities.EstadoReserva;
-import pro.Trartaria.FiltroSpring.Repository.EspaciosRepository;
-import pro.Trartaria.FiltroSpring.Repository.EstadoReservaRepository;
+import Pro.FiltroSpring.coworkingMaster.Entities.EstadoReserva;
+import Pro.FiltroSpring.coworkingMaster.Repository.EspaciosRepository;
+import Pro.FiltroSpring.coworkingMaster.Repository.EstadoReservaRepository;
+
 
 @Service
 public class EstadoReservaService {

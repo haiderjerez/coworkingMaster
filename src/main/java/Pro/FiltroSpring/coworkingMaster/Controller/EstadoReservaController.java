@@ -1,4 +1,4 @@
-package pro.Trartaria.FiltroSpring.Controller;
+package Pro.FiltroSpring.coworkingMaster.Controller;
 
 import java.util.List;
 import java.util.Optional;
@@ -8,9 +8,10 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import pro.Trartaria.FiltroSpring.Entities.EstadoReserva;
-import pro.Trartaria.FiltroSpring.Repository.EspaciosRepository;
-import pro.Trartaria.FiltroSpring.Service.EstadoReservaService;
+import Pro.FiltroSpring.coworkingMaster.Entities.EstadoReserva;
+import Pro.FiltroSpring.coworkingMaster.Repository.EspaciosRepository;
+import Pro.FiltroSpring.coworkingMaster.Service.EstadoReservaService;
+
 
 @RestController
 @RequestMapping("/estados-reservas")

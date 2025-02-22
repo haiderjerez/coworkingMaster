@@ -1,4 +1,4 @@
-package pro.Trartaria.FiltroSpring.DTO;
+package Pro.FiltroSpring.coworkingMaster.DTO;
 
 import java.util.List;
 
